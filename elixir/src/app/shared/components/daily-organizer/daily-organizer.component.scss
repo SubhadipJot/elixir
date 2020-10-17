@@ -1,0 +1,46 @@
+.wrapper{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4.5fr;
+  margin: 10px;
+  overflow: hidden;
+
+  .details{
+    height: 100%;
+    padding: 10px;
+
+    .inputs {
+      display: inline-flex;
+      margin-bottom: 20px;
+    }
+
+    .daily-organizer{
+      display: inline-flex;
+      margin-bottom: 20px;
+
+      h1{
+        line-height: 30px;
+        color: rgb(237, 237, 237);
+        margin-right: 10px;
+      }
+      img {
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .tasks {
+    height: 100%;
+    padding: 0px 15px;
+    background: transparent;
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+.user-button {
+
+  margin-inline-end: 10px;
+}

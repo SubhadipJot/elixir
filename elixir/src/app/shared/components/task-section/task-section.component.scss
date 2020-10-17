@@ -1,0 +1,38 @@
+.wrapper{
+  padding: 0px 20px;
+  height: 100vh;
+  background: rgb(101 101 101 / 18%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+  .header-wrapper {
+    display: inline-flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.849);
+
+    .header{
+      font-size: 2em;
+      margin-right: 10px;
+    }
+
+    .header-icon{
+      height: 50px;
+    }
+
+    .task-section-button{
+      border: none;
+      outline: none;
+      float: right;
+      cursor: pointer;
+      background: none;
+    }
+  }
+}
+
+.scrollable{
+  background: transparent;
+  margin: 0px;
+  padding: 10px;
+  overflow: auto;
+}

@@ -1,0 +1,21 @@
+<div class="wrapper">
+<div class="details">
+<section class="daily-organizer">
+<img src="../../../../assets/Icons/star.svg" alt="star">
+<h1>Daily Organizer</h1>
+<app-daily-organizer-user-button class="user-button" *ngFor="let item of items">user</app-daily-organizer-user-button>
+</section>
+<br>
+<div class="inputs">
+  <app-input type='search'></app-input>
+  <app-input type='people'></app-input>
+  <app-input type='hashtag'></app-input>
+</div>
+
+</div>
+<div class="tasks">
+<app-task-section taskType='Due Soon'></app-task-section>
+<app-task-section taskType='In Progress'></app-task-section>
+<app-task-section taskType='Done'></app-task-section>
+</div>
+</div>

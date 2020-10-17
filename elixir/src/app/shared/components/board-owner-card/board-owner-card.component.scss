@@ -1,0 +1,28 @@
+.wrapper{
+  padding: 5px;
+  margin: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: fit-content;
+  border: 1px solid black;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  img {
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+p{
+  font-size: 12px;
+}
